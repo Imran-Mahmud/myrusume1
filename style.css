@@ -1,0 +1,31 @@
+.dropdown-item {
+    display: block;
+    width: 100%;
+ 
+    clear: both;
+    font-weight: 400;
+    color: #9a9da0;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #343a40;
+    border: 0;
+}
+.dropdown-menu{
+	padding:0!important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff!important;
+    text-decoration: none!important;
+    background:#343a40!important;
+}
+.close{
+	color:red!important;
+}
+body{
+	position:relative;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color:  #21d2b9;
+    border-color: #21d2b9;
+}
